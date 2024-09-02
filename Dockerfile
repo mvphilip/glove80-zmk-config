@@ -10,7 +10,10 @@ RUN <<EOF
     # Mirror ZMK repository to make it easier to reference both branches and
     # tags without remote namespacing
     git clone --mirror https://github.com/moergo-sc/zmk /zmk
+    GIT_DIR=/zmk git fetch origin refs/pull/31/head
     GIT_DIR=/zmk git worktree add --detach /src
+    git clone https://github.com/urob/zmk-helpers /zmk-helpers
+    mv /zmk-helpers/include/zmk-helpers /src/app/include
 EOF
 
 # Prepopulate the container's nix store with the build dependencies for the main
