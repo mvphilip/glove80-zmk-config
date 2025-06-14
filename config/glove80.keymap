@@ -121,12 +121,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-            &mt ESC F1        &kp F2   &kp F3      &kp F4      &kp F5                                                                                         &kp F6  &kp F7      &kp F8      &kp F9      &kp F10
-            &kp TAB      &kp N1   &kp N2      &kp N3      &kp N4      &kp N5                                                                     &kp N6  &kp N7  &kp N8      &kp N9      &kp N0      &kp MINUS
-            &kp LC(C)        &kp Q    &kp W       &kp E       &kp R       &kp T                                                                      &kp Y   &kp U   &kp I       &kp O       &kp P       &kp PLUS
-            &kp LC(P)        &kp A    &kp S       &kp D       &kp F       &kp G                                                                      &kp H   &kp J   &kp K       &kp L       &kp SEMI    &kp UNDERSCORE
-            &kp GRAVE      &mt LCTRL Z    &mt LGUI X       &mt LALT C       &kp V       &kp B   &mt LBKT  LBRC  &kp LALT   &layer_td  &kp LGUI  &kp RALT &mt RBKT RBRC   &kp N   &kp M   &kp COMMA   &kp DOT     &kp FSLH    &kp PG_UP
-            &magic MAGIC 0 &kp HOME &kp END     &kp LEFT    &kp RIGHT           &mt LSHIFT LPAR &kp BSPC     &kp TAB   &kp RET  &kp SPACE   &mt RSHIFT RPAR           &kp UP  &kp DOWN    &kp LBKT    &kp RBKT    &kp BSLH
+            &mt ESC F1     &kp F2        &kp F3      &kp F4      &kp F5                                                                                                 &kp F6    &kp F7      &kp F8      &kp F9      &kp F10
+            &kp LC(INS)    &kp N1        &kp N2      &kp N3      &kp N4      &kp N5                                                                             &kp N6  &kp N7    &kp N8      &kp N9      &kp N0      &kp MINUS
+            &kp LS(INS)    &kp Q         &kp W       &kp E       &kp R       &kp T                                                                              &kp Y   &kp U     &kp I       &kp O       &kp P       &kp PLUS
+            &kp ESC        &kp A         &kp S       &kp D       &kp F       &kp G                                                                              &kp H   &kp J     &kp K       &kp L       &kp SEMI    &kp UNDERSCORE
+            &kp GRAVE      &mt LCTRL Z   &mt LGUI X  &kp C       &kp V       &kp B   &mt LBKT  LBRC  &kp LALT   &layer_td  &kp LGUI  &kp RALT  &mt RBKT RBRC    &kp N   &kp M     &kp COMMA   &kp DOT     &kp FSLH    &kp APOS
+            &magic MAGIC 0 &kp HOME      &kp END     &kp LEFT    &kp RIGHT           &mt LSHIFT LPAR &kp BSPC   &kp TAB    &kp RET   &kp SPACE &mt RSHIFT RPAR          &kp UP    &kp DOWN    &kp LBKT    &kp RBKT    &kp BSLH
             >;
         };
 
